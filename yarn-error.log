@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add slackbots axios
+
+PATH: 
+  /Users/nozomi/.rvm/gems/ruby-2.5.1/bin:/Users/nozomi/.rvm/gems/ruby-2.5.1@global/bin:/Users/nozomi/.rvm/rubies/ruby-2.5.1/bin:/Users/nozomi/.nodebrew/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/nozomi/.rvm/gems/ruby-2.5.1/bin:/Users/nozomi/.rvm/gems/ruby-2.5.1@global/bin:/Users/nozomi/.rvm/rubies/ruby-2.5.1/bin:/Users/nozomi/.nodebrew/current/bin:/Users/nozomi/.rvm/bin:/Users/nozomi/.rvm/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.2.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/nozomi/Desktop/nodejs/slack-jokebot/package.json: Unexpected string in JSON at position 152
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "slack-jokebot",
+    "version": "1.0.0",
+    "description": "Slackbot that tells random jokes",
+    "main": "index.js",
+    "scripts": {
+      
+    }
+    "author": "Nozomi Iida",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
